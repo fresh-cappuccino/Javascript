@@ -1,0 +1,10 @@
+/*
+Title: Palindromes
+::Direction::
+// write a function that takes a strings
+// return true if the string is palindromes
+// or return false if the string is not palindromes
+Examples:
+palindrome('abba') => return true
+palindrome('barik') => return false
+*/

@@ -1,0 +1,15 @@
+/*
+Title: Remove duplicate
+::Direction::
+// write a function that takes a strings
+// return a strings that don't have any duplicate (only for letters and digits)
+Examples:
+removeDup('hello') => return helo
+removeDup('greeting') => return reting
+*/
+
+function removeDup(str) {
+    return str.replace(/([a-zA-Z0-9])(?=.*\1)/g, '');
+}
+
+console.log(removeDup('greeting'));
